@@ -1,0 +1,63 @@
+  <p>
+      <b>Built with &#128525 having:</b>
+      
+  </p>
+  <ul>
+      <li>
+          ASP.NET Core 8.0
+      </li>
+      <li>
+          Clean Architecture
+      </li>
+      <li>
+          Generic Repository Pattern with predicates
+      </li>
+      <li>
+          Dapper
+      </li>
+      <li>
+          Auditable Entities
+      </li>
+      <li>
+          Structural Logging
+      </li>
+      <li>
+          Fluent Validation
+      </li>
+      <li>
+          Seq Integration
+      </li>
+      <li>
+          and much more....
+      </li>
+  </ul>
+  <p>What options would have been available to me if I had a less rigid schedule and more free time:</p>
+  <b>Option 1:</b>
+  <ul>
+      <li>
+          Jquery Datatable with server side rendering + searching
+      </li>
+      <li>
+          CRUD operations without reloading page
+      </li>
+      <li>
+          More options such as unenrollment.
+      </li>
+      <li>
+          Better error and notifications handling.
+      </li>
+    
+  </ul>
+  <b>Option 2 (More advanced &#128513):</b>
+  <ul>
+      <li>
+          Front-end with Angular
+      </li>
+      <li>
+          Clear architecture with CQRS pattern + events
+      </li>
+      <li>
+          Specification pattern using Ardalis library.
+      </li>
+    
+  </ul>
