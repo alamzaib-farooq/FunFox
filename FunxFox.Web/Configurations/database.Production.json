@@ -1,0 +1,6 @@
+{
+  "ConnectionString": {
+   "MasterDatabaseString": "Password=ILA@123;Persist Security Info=True;User ID=sa;Initial Catalog=Apparel_Park_Db;Data Source=ILA-FOGLIGHT\\SQLEXPRESS;TrustServerCertificate=True;"
+  }
+
+}

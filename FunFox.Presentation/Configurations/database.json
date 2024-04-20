@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=ALAMZAIB-NB\\SQLEXPRESS;Database=FunFox_Db;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
+  }
+
+}

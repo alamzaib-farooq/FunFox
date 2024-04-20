@@ -1,0 +1,39 @@
+﻿@model IEnumerable<FunFox.Application.Dtos.CourseDto>
+
+
+@{
+    ViewData["Title"] = "Course List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="mb-5">Courses</h3>
+<div class="container">
+    <div class="row">
+        @foreach (var course in Model)
+        {
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://source.unsplash.com/random/300×300" style="max-height: 200px; object-fit: cover;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">@course.ClassName</h5>
+                        <p class="card-text"><b>Duration</b>: @course.StartDate.ToString("d") - @course.EndDate.ToString("d")</p>
+                        <p class="card-text"><b>Grade Level</b>: @course.GradeLevel</p>
+                        <p class="card-text"><b>Duration</b>: @course.StartTime.Hours:@course.StartTime.Minutes - @course.EndTime.Hours:@course.EndTime.Minutes</p>
+                        @if (course.IsEnrolled)
+                        {
+                            <a asp-action="Enroll" asp-route-id="@course.Id" disabled="disabled" class="btn btn-primary">Enrolled</a>
+                        }
+                        else
+                        {
+                            <a asp-action="Enroll" asp-route-id="@course.Id" class="btn btn-primary">Enroll</a>
+
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+       
+        <!-- Repeat this div for the next 4 cards -->
+    </div>
+    <!-- Repeat this row for additional rows if needed -->
+</div>

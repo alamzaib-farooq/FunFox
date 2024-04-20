@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FunFox.Application\FunFox.Application.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Dapper" Version="2.1.44" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.4" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.4" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+	  <PackageReference Include="Serilog.Enrichers.Environment" Version="2.3.0" />
+	  <PackageReference Include="Serilog.Enrichers.Process" Version="2.0.2" />
+	  <PackageReference Include="Serilog.Enrichers.Thread" Version="3.1.0" />
+	  <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+	  <PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+	  <PackageReference Include="Serilog.Formatting.Compact" Version="2.0.0" />
+	  <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.0" />
+	  <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+	  <PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
+	  <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+	  <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="6.6.0" />
+	  <PackageReference Include="Serilog.Sinks.Seq" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Persistence\Migrations\" />
+	</ItemGroup>
+
+</Project>

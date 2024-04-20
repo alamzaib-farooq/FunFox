@@ -1,0 +1,7 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=tcp:funfoxdbserver.database.windows.net,1433;Initial Catalog=FunFox_db;User Id=sunnyazee@funfoxdbserver;Password=Tensor1!"
+
+  }
+
+}

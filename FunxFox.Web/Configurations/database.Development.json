@@ -1,0 +1,6 @@
+{
+  "ConnectionString": {
+   "MasterDatabaseString": "Server=ALAMZAIB-NB\\SQLEXPRESS;Database=Apparel_Park_Db;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
+  }
+
+}

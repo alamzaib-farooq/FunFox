@@ -1,0 +1,8 @@
+{
+    "ConnectionString": {
+        "DB2ConnectionString": "Server=10.111.0.5:50000;Database=nowprd;UID=ildt261116;PWD=dt2c1@sahaprd",
+        "SqlConnectionString": "Data Source=SABIRHUSSAIN-NB\\SQLEXPRESSIL;Initial Catalog=FogLightCuttingProd;Password=Danish123$;Persist Security Info=True;User ID=sa;Encrypt=False;",
+        "MasterDatabaseString": "Server=(localdb)\\mssqllocaldb;Database=aspnet-master-project-1FE36527-0EF5-46FD-9C4A-305247360A96;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+
+}
