@@ -94,12 +94,8 @@ namespace FunFox.Application.Services
 
         public async Task<List<Enrollment>> GetAllEnrollmentsForCourseAsync(int courseId)
         {
-            //To optimized it we can use includes here so that for each course we can add all enrollment in navigation collection.
-            //Because of tight schedule did not do that. 
-            var courses = await _courseRepository.GetAllCourses();
-            var enrollments = await _enrollmentRepository.GetAllEnrollments();
-            var enrollmentsForCourse = enrollments.Where(x => x.CourseId == courseId).ToList();
-            return enrollmentsForCourse;
+            var enrollments = await _enrollmentRepository.GetAllEnrollments(courseId);
+            return enrollments;
         }
 
     }
