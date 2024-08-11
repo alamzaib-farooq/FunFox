@@ -29,7 +29,7 @@ namespace FunFox.Presentation.Controllers
         {
             return View(await _courseService.GetAllCoursesAsync());
         }
-
+        //
         [Authorize(Roles = "Administrator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
