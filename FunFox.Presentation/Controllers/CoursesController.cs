@@ -29,7 +29,12 @@ namespace FunFox.Presentation.Controllers
         {
             return View(await _courseService.GetAllCoursesAsync());
         }
-        //
+        /// <summary>
+        /// /
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
         [Authorize(Roles = "Administrator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
